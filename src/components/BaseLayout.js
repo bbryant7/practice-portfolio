@@ -1,11 +1,26 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
+import {NavLink} from 'react-router-dom';
+import About from './About.js';
+import Portfolio from './Portfolio.js';
+
 
 class BaseLayout extends Component {
   render() {
     return (
+
+
     <div>
-    Meow Meow Face
+    <div className="NavBar">
+     <nav>
+      <NavLink to='/'> Home </NavLink>
+      <NavLink to='/about'> About</NavLink>
+      <NavLink to='/portfolio'> Portfolio </NavLink>
+     </nav>
+     </div>
+    <div>
+    {this.props.children}
+    </div>
     </div>
     );
   }
