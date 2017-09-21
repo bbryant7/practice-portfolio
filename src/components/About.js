@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import portrait from '../public/elizabeth.jpeg';
-
-
-
+import portrait from '../images/elizabeth.jpeg';
+import { Link } from 'react-router-dom';
 
 class About extends Component {
   render() {
@@ -25,7 +23,7 @@ class About extends Component {
       </p>
 
       <p> For information about the Queen, CLICK! </p>
-      <button type="submit"> We Want More Info! </button>
+      <button type="submit"> <Link to="https://www.royal.uk/her-majesty-the-queen"> We Want More Info! </Link></button>
 
       </div>
 

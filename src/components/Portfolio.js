@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import palace from '../public/buckingham.jpeg';
-import family from '../public/famfam.jpg';
-import dogs from '../public/corgis.jpeg';
+import palace from '../images/buckingham.jpeg';
+import family from '../images/famfam.jpg';
+import dogs from '../images/corgis.jpeg';
 
 
 class Portfolio extends Component {
