@@ -1,26 +1,28 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import {NavLink} from 'react-router-dom';
-import About from './About.js';
-import Portfolio from './Portfolio.js';
-import Contact from './contacts.js';
-import References from './references.js';
+
 
 
 
 class BaseLayout extends Component {
   render() {
+
+    let selected = {
+    color: "red",
+  };
     return (
 
 
     <div>
     <div className="NavBar">
      <nav>
-      <NavLink to='/'> Home </NavLink>
-      <NavLink to='/about'> About</NavLink>
-      <NavLink to='/portfolio'> Portfolio </NavLink>
-      <NavLink to='/contact'> Contact </NavLink>
-      <NavLink to='/references'> References </NavLink>
+      <NavLink activeClassName="selected"  activeStyle={{color: "blue"}} className="nav-link" exact to='/'> Splash Page </NavLink>
+      <NavLink activeClassName="selected" activeStyle={{color: "blue"}} className="nav-link" to='/home'> Home </NavLink>
+      <NavLink activeClassName="selected" activeStyle={{color: "blue"}} className="nav-link" to='/about'> About</NavLink>
+      <NavLink activeClassName="selected" activeStyle={{color: "blue"}} className="nav-link" to='/portfolio'> Portfolio </NavLink>
+      <NavLink activeClassName="selected" activeStyle={{color: "blue"}} className="nav-link" to='/contact'> Contact </NavLink>
+      <NavLink activeClassName="selected" activeStyle={{color: "blue"}} className="nav-link" to='/references'> References </NavLink>
      </nav>
      </div>
     <div>

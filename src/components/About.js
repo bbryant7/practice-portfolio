@@ -10,7 +10,7 @@ class About extends Component {
       <h1> About The Queen </h1>
       <img src={portrait} alt="portrait of Queen Elizabeth of England."/>
       <ul>
-        <li> Lover of Corgies</li>
+        <li> Lover of Corgis</li>
         <li> Ruler of Kingdoms</li>
         <li> Excellent WWII era mechanic</li>
       </ul>

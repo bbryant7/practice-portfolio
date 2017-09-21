@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import './styles/index.css';
-// import App from './components/App';
+import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import Home from './components/Home.js';
 import Portfolio from './components/Portfolio.js';
@@ -18,11 +18,12 @@ ReactDOM.render(
   <BrowserRouter>
    <BaseLayout>
      <Switch>
+      <Route exact path="/" component={App}/>
        <Route path= '/portfolio' component={Portfolio}/>
        <Route path= '/about' component={About}/>
        <Route path= '/contact' component={Contact}/>
        <Route path= '/references' component={References}/>
-       <Route path= '/' component={Home}/>
+       <Route path= '/home' component={Home}/>
      </Switch>
    </BaseLayout>
    </BrowserRouter>
