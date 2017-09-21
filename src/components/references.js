@@ -9,7 +9,7 @@ class References extends Component {
 
     <div>
       <h1> References </h1>
-      <div>
+      <div className="reference-card">
         <ul>
           <li> Princess Charlotte of Cambridge </li>
           <li> Phone: 555-555-5555</li>
@@ -18,7 +18,7 @@ class References extends Component {
         </ul>
       </div>
 
-      <div>
+      <div className="reference-card">
         <ul>
           <li> Prince Charles </li>
           <li> Phone: 555-555-5555</li>
@@ -27,7 +27,7 @@ class References extends Component {
         </ul>
       </div>
 
-      <div>
+      <div className="reference-card">
         <ul>
           <li> The Duke of Edinburgh </li>
           <li> Phone: 555-555-5555</li>

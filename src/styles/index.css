@@ -2,5 +2,65 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: purple;
+  background-color: #F9F6FA;
+  color: #3E3E3D;
+}
+
+.subject {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  padding: 15px;
+  padding-left: 5px;
+  background-color: #39055E;
+
+}
+
+.nav-link {
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+}
+
+.splash {
+  font-size: 20px;
+}
+
+.reference-card{
+  backround-color: white;
+  border: 4px solid white;
+  margin: 50px;
+  text-align:left;
+  radius: 8px;
+  padding-right: 15px;
+
+}
+li{
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #39055E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font: white;
+}
+
+a {
+  text-decoration: none;
 }
