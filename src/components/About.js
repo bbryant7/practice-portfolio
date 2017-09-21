@@ -23,7 +23,7 @@ class About extends Component {
       </p>
 
       <p> For information about the Queen, CLICK! </p>
-      <button type="submit"> <Link to="https://www.royal.uk/her-majesty-the-queen"> We Want More Info! </Link></button>
+      <button type="submit"> <a href="https://www.royal.uk/her-majesty-the-queen"> We Want More Info! </a></button>
 
       </div>
 
