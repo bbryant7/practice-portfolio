@@ -4,10 +4,12 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import './styles/index.css';
 // import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
-import Home from './components/Home.js'
-import Portfolio from './components/Portfolio.js'
-import About from './components/About';
-import BaseLayout from './components/BaseLayout.js'
+import Home from './components/Home.js';
+import Portfolio from './components/Portfolio.js';
+import About from './components/About.js';
+import BaseLayout from './components/BaseLayout.js';
+import Contact from './components/contacts.js';
+import References from './components/references.js';
 
 
 
@@ -18,6 +20,8 @@ ReactDOM.render(
      <Switch>
        <Route path= '/portfolio' component={Portfolio}/>
        <Route path= '/about' component={About}/>
+       <Route path= '/contact' component={Contact}/>
+       <Route path= '/references' component={References}/>
        <Route path= '/' component={Home}/>
      </Switch>
    </BaseLayout>

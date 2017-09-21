@@ -3,6 +3,9 @@ import '../styles/App.css';
 import {NavLink} from 'react-router-dom';
 import About from './About.js';
 import Portfolio from './Portfolio.js';
+import Contact from './contacts.js';
+import References from './references.js';
+
 
 
 class BaseLayout extends Component {
@@ -16,6 +19,8 @@ class BaseLayout extends Component {
       <NavLink to='/'> Home </NavLink>
       <NavLink to='/about'> About</NavLink>
       <NavLink to='/portfolio'> Portfolio </NavLink>
+      <NavLink to='/contact'> Contact </NavLink>
+      <NavLink to='/references'> References </NavLink>
      </nav>
      </div>
     <div>
